@@ -1,0 +1,63 @@
+......................                                                   [100%]
+22 passed in 0.33s
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/hajun/dev_ws/esp32-s3-monitor/build-host
+[0/2] Re-checking globbed directories...
+[1/7] Building C object CMakeFiles/touch_calibration_check.dir/home/hajun/dev_ws/esp32-s3-monitor/src/board/touch_transform.c.o
+[2/7] Building C object CMakeFiles/touch_fixed_check.dir/touch_preview.c.o
+[3/7] Building C object CMakeFiles/touch_calibration_check.dir/touch_preview.c.o
+[4/7] Building C object CMakeFiles/touch_calibration_check.dir/home/hajun/dev_ws/esp32-s3-monitor/src/board/touch_calibration.c.o
+[5/7] Linking C executable touch_fixed_check
+[6/7] Linking C executable touch_calibration_check
+Journal wrap, bounded retention, CRC recovery, NVS restore and offline runtime checks passed
+Touch math / capture: axes, scale, skew, error, clamp, degeneracy, hold/release, drag, multitouch, fault, rollover PASS
+I (touch_cal) Calibration mode: four corners + independent center validation. Hold >=250 ms and release.
+W (touch_cal) GT911 read failed; check touch I2C connection. Sample discarded.
+I (touch_cal) Point 1: raw=(84.00, 936.00) screen=(64, 64)
+I (touch_cal) Point 2: raw=(84.00, 265.00) screen=(735, 64)
+I (touch_cal) Point 3: raw=(435.00, 265.00) screen=(735, 415)
+I (touch_cal) Point 4: raw=(435.00, 936.00) screen=(64, 415)
+I (touch_cal) Point 5: raw=(260.00, 500.00) screen=(400, 240)
+W (touch_cal) Calibration rejected (fit=1, corner=0.00 px, center=100.00 px). Retrying.
+I (touch_cal) Point 1: raw=(84.00, 936.00) screen=(64, 64)
+I (touch_cal) Point 2: raw=(84.00, 265.00) screen=(735, 64)
+I (touch_cal) Point 3: raw=(435.00, 265.00) screen=(735, 415)
+I (touch_cal) Point 4: raw=(435.00, 936.00) screen=(64, 415)
+I (touch_cal) Point 5: raw=(260.00, 600.00) screen=(400, 240)
+I (touch_cal) PASS: corner max error 0.00 px; center error 0.00 px
+I (touch_cal) Applied for this session. Replace the mode/coefficients in include/board/touch_settings.h:
+
+// #define BOARD_TOUCH_CALIBRATE_ON_BOOT
+#define BOARD_TOUCH_USE_FIXED_CALIBRATION
+#define BOARD_TOUCH_CALIBRATION_COEFFICIENTS \
+    { .a = 0.000000000f, .b = -1.000000000f, .c = 1000.000000000f, \
+      .d = 1.000000000f, .e = 0.000000000f, .f = -20.000000000f }
+
+Calibration LVGL screen, rejected center/retry, apply, cleanup, input handoff PASS
+I (touch_cal) Fixed calibration: a=0.000000000 b=-1.000000000 c=1000.000000000 d=1.000000000 e=0.000000000 f=-20.000000000
+Fixed mode: applies coefficients without calibration or raw touch polling PASS
+15 EEZ tabs: pointer hit testing, content, radio selection, history table, scrolling and re-entry passed
+LVGL runtime navigation, input validation, animation, proportional and offline checks passed
+WARNING: The following issue occurred while accessing the ESP-IDF version file in the Python environment: [Errno 2] No such file or directory: '/home/hajun/dev_ws/esp32-s3-monitor/.venv/idf_version.txt'. (Diagnostic information. It can be ignored.)
+[0/2] Re-checking globbed directories...
+[1/5] cd /home/hajun/dev_ws/esp32-s3-monitor/build && /home/hajun/dev_ws/esp32-s3-monitor/.venv/bin/python3 /home/hajun/esp-idf-v6.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/hajun/dev_ws/esp32-s3-monitor/build/partition_table/partition-table.bin /home/hajun/dev_ws/esp32-s3-monitor/build/mex_touch_monitor.bin
+mex_touch_monitor.bin binary size 0x1c25d0 bytes. Smallest app partition is 0xa00000 bytes. 0x83da30 bytes (82%) free.
+[2/5] Performing build step for 'bootloader'
+[1/1] cd /home/hajun/dev_ws/esp32-s3-monitor/build/bootloader && /home/hajun/dev_ws/esp32-s3-monitor/.venv/bin/python3 /home/hajun/esp-idf-v6.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/hajun/dev_ws/esp32-s3-monitor/build/bootloader/bootloader.bin
+Bootloader binary size 0x52b0 bytes. 0x2d50 bytes (35%) free.
+[3/5] No install step for 'bootloader'
+[4/5] Completed 'bootloader'
+Executing action: all (aliases: build)
+Running ninja in directory /home/hajun/dev_ws/esp32-s3-monitor/build
+Executing "ninja all"...
+
+Project build complete. To flash, run:
+ idf.py flash
+or
+ idf.py -p PORT flash
+or
+ python -m esptool --chip esp32s3 -b 460800 --before default-reset --after hard-reset write-flash --flash-mode dio --flash-size 16MB --flash-freq 80m 0x0 build/bootloader/bootloader.bin 0x8000 build/partition_table/partition-table.bin 0x10000 build/mex_touch_monitor.bin
+or from the "/home/hajun/dev_ws/esp32-s3-monitor/build" directory
+ python -m esptool --chip esp32s3 -b 460800 --before default-reset --after hard-reset write-flash "@flash_args"
+All LVGL 9.6.0 host tests and ESP-IDF v6.1 build passed. Hardware has NOT been tested.

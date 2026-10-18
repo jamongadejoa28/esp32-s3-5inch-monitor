@@ -1,0 +1,14 @@
+.venv/
+.tools/
+.pytest_cache/
+__pycache__/
+build/
+build-host/
+sdkconfig.old
+managed_components/
+node_modules/
+*.pyc
+
+# Intermediate compiler and preview outputs
+*.o
+/artifacts/*.ppm

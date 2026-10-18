@@ -1,0 +1,14 @@
+{
+  "idf.extensionActivationMode": "always",
+  "idf.currentSetup": "/home/hajun/esp-idf-v6.1",
+  "idf.buildPath": "${workspaceFolder}/build",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3",
+    "IDF_PATH": "/home/hajun/esp-idf-v6.1",
+    "IDF_TOOLS_PATH": "/home/hajun/dev_ws/wokwipj/.tools/espressif",
+    "IDF_PYTHON_ENV_PATH": "/home/hajun/dev_ws/esp32-s3-monitor/.venv"
+  },
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json",
+  "idf.port": "/dev/ttyACM0",
+  "idf.flashType": "UART"
+}

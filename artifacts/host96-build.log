@@ -1,0 +1,21 @@
+[0/2] Re-checking globbed directories...
+[1/2] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/hajun/dev_ws/esp32-s3-monitor/build-host
+[0/4] Re-checking globbed directories...
+[1/18] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/images.c.o
+[2/18] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/styles.c.o
+[3/18] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui_font_body.c.o
+[4/18] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui_font_small.c.o
+[5/18] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui.c.o
+[6/18] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui_font_title.c.o
+[7/18] Building C object CMakeFiles/monitor_preview.dir/preview.c.o
+[8/18] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui_image_cool.c.o
+[9/18] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui_image_fan.c.o
+[10/18] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui_image_dry.c.o
+[11/18] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui_image_heat.c.o
+[12/18] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui_image_humid.c.o
+[13/18] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui_font_value.c.o
+[14/18] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/screens.c.o
+[15/18] Linking C executable monitor_preview

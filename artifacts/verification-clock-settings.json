@@ -1,0 +1,38 @@
+{
+  "pytest_passed": 24,
+  "idf": "6.1",
+  "lvgl": "9.6.0",
+  "hardware_tested": false,
+  "eez_generation": {
+    "mcp_build_passed": true,
+    "output_files": 22,
+    "copied_intact": true,
+    "fade_removed_in_source_template": true
+  },
+  "clock": {
+    "display": "YYYY-MM-DD HH:MM KST",
+    "timezone": "UTC+09:00",
+    "sync": "USB PC handshake or manual",
+    "batteryless_cold_boot_requires_sync": true,
+    "rtc_os_bcd_calendar_and_commissioning_validated": true,
+    "host_board_clock_checks_passed": true,
+    "pc_pty_checks_passed": true
+  },
+  "offline_settings": {
+    "addresses": [
+      40012,
+      40013,
+      40014,
+      40015,
+      40016,
+      40017
+    ],
+    "persistence": "NVS per controller address",
+    "pending_indicator": "*",
+    "readback_required": true,
+    "latest_edit_race_regression_passed": true,
+    "six_gui_editors_passed": true
+  },
+  "verification_log": "artifacts/verification-clock-settings.log",
+  "firmware_sha256": "cf953e92ba86d350f269eb1c4f6a112db2318d05a117081fa6eeba725e3a827c"
+}

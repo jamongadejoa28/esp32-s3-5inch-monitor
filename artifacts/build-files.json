@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "index": 0,
+      "fileName": "screens.h",
+      "objID": "77a3c073-90b1-47c7-f05e-c8a541c8f8a2",
+      "templateLength": 281
+    },
+    {
+      "index": 1,
+      "fileName": "screens.c",
+      "objID": "2cedcc00-2d43-440f-d464-a7739f82c7ce",
+      "templateLength": 226
+    },
+    {
+      "index": 2,
+      "fileName": "actions.h",
+      "objID": "e8fa876c-8113-4982-97fb-954d8ef4c889",
+      "templateLength": 239
+    },
+    {
+      "index": 3,
+      "fileName": "vars.h",
+      "objID": "d4f95758-9ae6-476b-9925-5bbbcd4e21ff",
+      "templateLength": 401
+    },
+    {
+      "index": 4,
+      "fileName": "structs.h",
+      "objID": "9f078edd-a3c0-41a1-d861-30801b97fdec",
+      "templateLength": 341
+    },
+    {
+      "index": 5,
+      "fileName": "images.h",
+      "objID": "5a03aaa3-f314-4365-896a-908546815928",
+      "templateLength": 238
+    },
+    {
+      "index": 6,
+      "fileName": "images.c",
+      "objID": "ee2d4ad1-b9a6-4223-eb6a-4998a774def9",
+      "templateLength": 52
+    },
+    {
+      "index": 7,
+      "fileName": "fonts.h",
+      "objID": "b9328df8-bc10-455a-b83e-9ba239d4a96d",
+      "templateLength": 234
+    },
+    {
+      "index": 8,
+      "fileName": "styles.h",
+      "objID": "dc533c3b-6b8f-4238-cb9a-70cbc3e149ac",
+      "templateLength": 238
+    },
+    {
+      "index": 9,
+      "fileName": "styles.c",
+      "objID": "1a7f6ad1-03c2-4496-c212-1471956d26ed",
+      "templateLength": 92
+    },
+    {
+      "index": 10,
+      "fileName": "ui.h",
+      "objID": "7d025e4d-c913-4653-ee86-1aa07dcde532",
+      "templateLength": 481
+    },
+    {
+      "index": 11,
+      "fileName": "ui.c",
+      "objID": "b496009f-11d0-43a6-ccf2-36f65d85a307",
+      "templateLength": 1081
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+[0/2] Re-checking globbed directories...
+-- GLOB mismatch!
+The following files were removed:
+  -/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/images.c
+  -/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/screens.c
+  -/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/styles.c
+  -/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui.c
+  -/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui_font_body.c
+  -/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui_font_small.c
+  -/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui_font_title.c
+  -/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui_font_value.c
+  -/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui_image_cool.c
+  -/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui_image_dry.c
+  -/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui_image_fan.c
+  -/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui_image_heat.c
+  -/home/hajun/dev_ws/esp32-s3-monitor/generated/ui/src/ui_image_humid.c
+[1/2] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/hajun/dev_ws/esp32-s3-monitor/build-host
+[0/4] Re-checking globbed directories...
+[1/27] Building C object CMakeFiles/monitor_preview.dir/storage_fake.c.o
+[2/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/images.c.o
+[3/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/src/ui/tabs.c.o
+[4/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/src/ui/charts.c.o
+[5/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/src/ui/widgets.c.o
+[6/27] Building C object CMakeFiles/monitor_preview.dir/preview.c.o
+[7/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/styles.c.o
+[8/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui.c.o
+[9/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/src/ui/animations.c.o
+[10/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui_font_body.c.o
+[11/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui_font_small.c.o
+[12/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/src/ui/dashboard.c.o
+[13/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui_font_title.c.o
+[14/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui_image_cool.c.o
+[15/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/src/domain/model.c.o
+[16/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/screens.c.o
+[17/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui_image_dry.c.o
+[18/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui_image_fan.c.o
+[19/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui_font_value.c.o
+[20/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/src/domain/settings_catalog.c.o
+[21/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui_image_heat.c.o
+[22/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui_image_humid.c.o
+[23/27] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/src/services/storage.c.o
+[24/27] Linking C executable monitor_preview

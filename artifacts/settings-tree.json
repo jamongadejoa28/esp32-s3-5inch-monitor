@@ -1,0 +1,778 @@
+{
+  "page": "Settings",
+  "root": {
+    "objID": "861be545-cdab-478e-8351-2c7df67f12fa",
+    "type": "LVGLScreenWidget",
+    "identifier": null,
+    "rect": {
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 480,
+      "leftUnit": "px",
+      "topUnit": "px",
+      "widthUnit": "px",
+      "heightUnit": "px"
+    },
+    "absoluteRect": {
+      "x": 0,
+      "y": 0,
+      "width": 800,
+      "height": 480
+    },
+    "useStyle": null,
+    "hasLocalStyles": true,
+    "children": [
+      {
+        "objID": "c6091d8e-0d7a-439b-ddd4-6962c3d809df",
+        "type": "LVGLLabelWidget",
+        "identifier": "settings_title",
+        "rect": {
+          "left": 20,
+          "top": 17,
+          "width": 330,
+          "height": 32,
+          "leftUnit": "px",
+          "topUnit": "px",
+          "widthUnit": "px",
+          "heightUnit": "px"
+        },
+        "absoluteRect": {
+          "x": 20,
+          "y": 17,
+          "width": 330,
+          "height": 32
+        },
+        "useStyle": null,
+        "hasLocalStyles": true,
+        "children": [],
+        "text": "운전 설정"
+      },
+      {
+        "objID": "1a20636c-e613-403f-c573-b0f38105e30c",
+        "type": "LVGLLabelWidget",
+        "identifier": "settings_clock",
+        "rect": {
+          "left": 490,
+          "top": 20,
+          "width": 145,
+          "height": 24,
+          "leftUnit": "px",
+          "topUnit": "px",
+          "widthUnit": "px",
+          "heightUnit": "px"
+        },
+        "absoluteRect": {
+          "x": 490,
+          "y": 20,
+          "width": 145,
+          "height": 24
+        },
+        "useStyle": null,
+        "hasLocalStyles": true,
+        "children": [],
+        "text": "--:--"
+      },
+      {
+        "objID": "914c5fe6-f1bd-4beb-c321-f12d7aaf7095",
+        "type": "LVGLLabelWidget",
+        "identifier": "settings_connection",
+        "rect": {
+          "left": 650,
+          "top": 22,
+          "width": 132,
+          "height": 22,
+          "leftUnit": "px",
+          "topUnit": "px",
+          "widthUnit": "px",
+          "heightUnit": "px"
+        },
+        "absoluteRect": {
+          "x": 650,
+          "y": 22,
+          "width": 132,
+          "height": 22
+        },
+        "useStyle": null,
+        "hasLocalStyles": true,
+        "children": [],
+        "text": "연결 확인 중"
+      },
+      {
+        "objID": "ba8ab505-e8d4-4407-cd95-5e083252438d",
+        "type": "LVGLButtonWidget",
+        "identifier": "settings_nav_0",
+        "rect": {
+          "left": 20,
+          "top": 426,
+          "width": 175,
+          "height": 44,
+          "leftUnit": "px",
+          "topUnit": "px",
+          "widthUnit": "px",
+          "heightUnit": "px"
+        },
+        "absoluteRect": {
+          "x": 20,
+          "y": 426,
+          "width": 175,
+          "height": 44
+        },
+        "useStyle": null,
+        "hasLocalStyles": true,
+        "children": [
+          {
+            "objID": "20dfd795-73e0-4fa2-8f6e-35d4a85108db",
+            "type": "LVGLLabelWidget",
+            "identifier": null,
+            "rect": {
+              "left": 0,
+              "top": 11,
+              "width": 175,
+              "height": 24,
+              "leftUnit": "px",
+              "topUnit": "px",
+              "widthUnit": "px",
+              "heightUnit": "px"
+            },
+            "absoluteRect": {
+              "x": 20,
+              "y": 437,
+              "width": 175,
+              "height": 24
+            },
+            "useStyle": null,
+            "hasLocalStyles": true,
+            "children": [],
+            "text": "대시보드"
+          }
+        ]
+      },
+      {
+        "objID": "3df0dbc9-fbf9-4980-f060-1c7512b1a68c",
+        "type": "LVGLButtonWidget",
+        "identifier": "settings_nav_1",
+        "rect": {
+          "left": 215,
+          "top": 426,
+          "width": 175,
+          "height": 44,
+          "leftUnit": "px",
+          "topUnit": "px",
+          "widthUnit": "px",
+          "heightUnit": "px"
+        },
+        "absoluteRect": {
+          "x": 215,
+          "y": 426,
+          "width": 175,
+          "height": 44
+        },
+        "useStyle": null,
+        "hasLocalStyles": true,
+        "children": [
+          {
+            "objID": "1ad84a1b-46d3-4cde-9351-d46420266e0a",
+            "type": "LVGLLabelWidget",
+            "identifier": null,
+            "rect": {
+              "left": 0,
+              "top": 11,
+              "width": 175,
+              "height": 24,
+              "leftUnit": "px",
+              "topUnit": "px",
+              "widthUnit": "px",
+              "heightUnit": "px"
+            },
+            "absoluteRect": {
+              "x": 215,
+              "y": 437,
+              "width": 175,
+              "height": 24
+            },
+            "useStyle": null,
+            "hasLocalStyles": true,
+            "children": [],
+            "text": "이력"
+          }
+        ]
+      },
+      {
+        "objID": "6531d498-56c5-49b9-d8b6-219959ca3275",
+        "type": "LVGLButtonWidget",
+        "identifier": "settings_nav_2",
+        "rect": {
+          "left": 410,
+          "top": 426,
+          "width": 175,
+          "height": 44,
+          "leftUnit": "px",
+          "topUnit": "px",
+          "widthUnit": "px",
+          "heightUnit": "px"
+        },
+        "absoluteRect": {
+          "x": 410,
+          "y": 426,
+          "width": 175,
+          "height": 44
+        },
+        "useStyle": null,
+        "hasLocalStyles": true,
+        "children": [
+          {
+            "objID": "7f9f9c88-6cee-4e2d-e5a2-4109bb33065a",
+            "type": "LVGLLabelWidget",
+            "identifier": null,
+            "rect": {
+              "left": 0,
+              "top": 11,
+              "width": 175,
+              "height": 24,
+              "leftUnit": "px",
+              "topUnit": "px",
+              "widthUnit": "px",
+              "heightUnit": "px"
+            },
+            "absoluteRect": {
+              "x": 410,
+              "y": 437,
+              "width": 175,
+              "height": 24
+            },
+            "useStyle": null,
+            "hasLocalStyles": true,
+            "children": [],
+            "text": "장비"
+          }
+        ]
+      },
+      {
+        "objID": "39b139cc-4e22-4857-9299-2539d30abaf7",
+        "type": "LVGLButtonWidget",
+        "identifier": "settings_nav_3",
+        "rect": {
+          "left": 605,
+          "top": 426,
+          "width": 175,
+          "height": 44,
+          "leftUnit": "px",
+          "topUnit": "px",
+          "widthUnit": "px",
+          "heightUnit": "px"
+        },
+        "absoluteRect": {
+          "x": 605,
+          "y": 426,
+          "width": 175,
+          "height": 44
+        },
+        "useStyle": null,
+        "hasLocalStyles": true,
+        "children": [
+          {
+            "objID": "23a4398e-c2b9-46b3-afbd-5b984aeac923",
+            "type": "LVGLLabelWidget",
+            "identifier": null,
+            "rect": {
+              "left": 0,
+              "top": 11,
+              "width": 175,
+              "height": 24,
+              "leftUnit": "px",
+              "topUnit": "px",
+              "widthUnit": "px",
+              "heightUnit": "px"
+            },
+            "absoluteRect": {
+              "x": 605,
+              "y": 437,
+              "width": 175,
+              "height": 24
+            },
+            "useStyle": null,
+            "hasLocalStyles": true,
+            "children": [],
+            "text": "설정"
+          }
+        ]
+      },
+      {
+        "objID": "73cad7c3-241f-479a-8796-3fe710db09b6",
+        "type": "LVGLPanelWidget",
+        "identifier": "settings_content",
+        "rect": {
+          "left": 20,
+          "top": 66,
+          "width": 760,
+          "height": 346,
+          "leftUnit": "px",
+          "topUnit": "px",
+          "widthUnit": "px",
+          "heightUnit": "px"
+        },
+        "absoluteRect": {
+          "x": 20,
+          "y": 66,
+          "width": 760,
+          "height": 346
+        },
+        "useStyle": null,
+        "hasLocalStyles": true,
+        "children": [
+          {
+            "objID": "785226d9-1e76-46a0-d926-6df0e2d806d8",
+            "type": "LVGLPanelWidget",
+            "identifier": "settings_body",
+            "rect": {
+              "left": 20,
+              "top": 62,
+              "width": 720,
+              "height": 270,
+              "leftUnit": "px",
+              "topUnit": "px",
+              "widthUnit": "px",
+              "heightUnit": "px"
+            },
+            "absoluteRect": {
+              "x": 40,
+              "y": 128,
+              "width": 720,
+              "height": 270
+            },
+            "useStyle": null,
+            "hasLocalStyles": true,
+            "children": [
+              {
+                "objID": "365f588a-9be2-434f-f5c4-93705efc0adc",
+                "type": "LVGLLabelWidget",
+                "identifier": "preview_settings_row_0",
+                "rect": {
+                  "left": 4,
+                  "top": 18,
+                  "width": 700,
+                  "height": 24,
+                  "leftUnit": "px",
+                  "topUnit": "px",
+                  "widthUnit": "px",
+                  "heightUnit": "px"
+                },
+                "absoluteRect": {
+                  "x": 44,
+                  "y": 146,
+                  "width": 700,
+                  "height": 24
+                },
+                "useStyle": null,
+                "hasLocalStyles": true,
+                "children": [],
+                "text": "설정온도                                          --.- ℃"
+              },
+              {
+                "objID": "c49b7d6a-6c09-4590-dcf8-103ea6ad383f",
+                "type": "LVGLLabelWidget",
+                "identifier": "preview_settings_row_1",
+                "rect": {
+                  "left": 4,
+                  "top": 62,
+                  "width": 700,
+                  "height": 24,
+                  "leftUnit": "px",
+                  "topUnit": "px",
+                  "widthUnit": "px",
+                  "heightUnit": "px"
+                },
+                "absoluteRect": {
+                  "x": 44,
+                  "y": 190,
+                  "width": 700,
+                  "height": 24
+                },
+                "useStyle": null,
+                "hasLocalStyles": true,
+                "children": [],
+                "text": "설정습도                                          --.- %"
+              },
+              {
+                "objID": "ff6c094d-70b4-4aed-cde9-913564636ecb",
+                "type": "LVGLLabelWidget",
+                "identifier": "preview_settings_row_2",
+                "rect": {
+                  "left": 4,
+                  "top": 106,
+                  "width": 700,
+                  "height": 24,
+                  "leftUnit": "px",
+                  "topUnit": "px",
+                  "widthUnit": "px",
+                  "heightUnit": "px"
+                },
+                "absoluteRect": {
+                  "x": 44,
+                  "y": 234,
+                  "width": 700,
+                  "height": 24
+                },
+                "useStyle": null,
+                "hasLocalStyles": true,
+                "children": [],
+                "text": "냉방편차                                          --.- ℃"
+              },
+              {
+                "objID": "aa3e82f4-5fb7-44e2-f19d-b32851e284cb",
+                "type": "LVGLLabelWidget",
+                "identifier": "preview_settings_row_3",
+                "rect": {
+                  "left": 4,
+                  "top": 150,
+                  "width": 700,
+                  "height": 24,
+                  "leftUnit": "px",
+                  "topUnit": "px",
+                  "widthUnit": "px",
+                  "heightUnit": "px"
+                },
+                "absoluteRect": {
+                  "x": 44,
+                  "y": 278,
+                  "width": 700,
+                  "height": 24
+                },
+                "useStyle": null,
+                "hasLocalStyles": true,
+                "children": [],
+                "text": "난방편차                                          --.- ℃"
+              },
+              {
+                "objID": "a745f699-a848-4d2a-d02f-c3be1245536e",
+                "type": "LVGLLabelWidget",
+                "identifier": "preview_settings_row_4",
+                "rect": {
+                  "left": 4,
+                  "top": 194,
+                  "width": 700,
+                  "height": 24,
+                  "leftUnit": "px",
+                  "topUnit": "px",
+                  "widthUnit": "px",
+                  "heightUnit": "px"
+                },
+                "absoluteRect": {
+                  "x": 44,
+                  "y": 322,
+                  "width": 700,
+                  "height": 24
+                },
+                "useStyle": null,
+                "hasLocalStyles": true,
+                "children": [],
+                "text": "가습편차                                          --.- %"
+              }
+            ]
+          },
+          {
+            "objID": "c20516d8-0acf-495e-e422-9c2b96a868ad",
+            "type": "LVGLButtonWidget",
+            "identifier": "settings_tab_0",
+            "rect": {
+              "left": 12,
+              "top": 10,
+              "width": 116,
+              "height": 44,
+              "leftUnit": "px",
+              "topUnit": "px",
+              "widthUnit": "px",
+              "heightUnit": "px"
+            },
+            "absoluteRect": {
+              "x": 32,
+              "y": 76,
+              "width": 116,
+              "height": 44
+            },
+            "useStyle": null,
+            "hasLocalStyles": true,
+            "children": [
+              {
+                "objID": "fc18eb67-8dbf-4a6a-8120-f8719cd20a5f",
+                "type": "LVGLLabelWidget",
+                "identifier": null,
+                "rect": {
+                  "left": 0,
+                  "top": 11,
+                  "width": 116,
+                  "height": 24,
+                  "leftUnit": "px",
+                  "topUnit": "px",
+                  "widthUnit": "px",
+                  "heightUnit": "px"
+                },
+                "absoluteRect": {
+                  "x": 32,
+                  "y": 87,
+                  "width": 116,
+                  "height": 24
+                },
+                "useStyle": null,
+                "hasLocalStyles": true,
+                "children": [],
+                "text": "기본"
+              }
+            ]
+          },
+          {
+            "objID": "624ed7e0-82c4-47ef-abe6-54d2ff4b717f",
+            "type": "LVGLButtonWidget",
+            "identifier": "settings_tab_1",
+            "rect": {
+              "left": 136,
+              "top": 10,
+              "width": 116,
+              "height": 44,
+              "leftUnit": "px",
+              "topUnit": "px",
+              "widthUnit": "px",
+              "heightUnit": "px"
+            },
+            "absoluteRect": {
+              "x": 156,
+              "y": 76,
+              "width": 116,
+              "height": 44
+            },
+            "useStyle": null,
+            "hasLocalStyles": true,
+            "children": [
+              {
+                "objID": "ec5f7b76-6e25-47a5-f9b5-6da279c1a71c",
+                "type": "LVGLLabelWidget",
+                "identifier": null,
+                "rect": {
+                  "left": 0,
+                  "top": 11,
+                  "width": 116,
+                  "height": 24,
+                  "leftUnit": "px",
+                  "topUnit": "px",
+                  "widthUnit": "px",
+                  "heightUnit": "px"
+                },
+                "absoluteRect": {
+                  "x": 156,
+                  "y": 87,
+                  "width": 116,
+                  "height": 24
+                },
+                "useStyle": null,
+                "hasLocalStyles": true,
+                "children": [],
+                "text": "고급"
+              }
+            ]
+          },
+          {
+            "objID": "d2ae12f1-a3cf-4112-df76-3d7013866f7c",
+            "type": "LVGLButtonWidget",
+            "identifier": "settings_tab_2",
+            "rect": {
+              "left": 260,
+              "top": 10,
+              "width": 116,
+              "height": 44,
+              "leftUnit": "px",
+              "topUnit": "px",
+              "widthUnit": "px",
+              "heightUnit": "px"
+            },
+            "absoluteRect": {
+              "x": 280,
+              "y": 76,
+              "width": 116,
+              "height": 44
+            },
+            "useStyle": null,
+            "hasLocalStyles": true,
+            "children": [
+              {
+                "objID": "89b20608-ce34-4a1b-a8e2-022710705c68",
+                "type": "LVGLLabelWidget",
+                "identifier": null,
+                "rect": {
+                  "left": 0,
+                  "top": 11,
+                  "width": 116,
+                  "height": 24,
+                  "leftUnit": "px",
+                  "topUnit": "px",
+                  "widthUnit": "px",
+                  "heightUnit": "px"
+                },
+                "absoluteRect": {
+                  "x": 280,
+                  "y": 87,
+                  "width": 116,
+                  "height": 24
+                },
+                "useStyle": null,
+                "hasLocalStyles": true,
+                "children": [],
+                "text": "미확인"
+              }
+            ]
+          },
+          {
+            "objID": "16be0286-fa01-40ac-eb2b-50343c4e9346",
+            "type": "LVGLButtonWidget",
+            "identifier": "settings_tab_3",
+            "rect": {
+              "left": 384,
+              "top": 10,
+              "width": 116,
+              "height": 44,
+              "leftUnit": "px",
+              "topUnit": "px",
+              "widthUnit": "px",
+              "heightUnit": "px"
+            },
+            "absoluteRect": {
+              "x": 404,
+              "y": 76,
+              "width": 116,
+              "height": 44
+            },
+            "useStyle": null,
+            "hasLocalStyles": true,
+            "children": [
+              {
+                "objID": "47948841-87a4-4bd5-f4b8-932f2f13202e",
+                "type": "LVGLLabelWidget",
+                "identifier": null,
+                "rect": {
+                  "left": 0,
+                  "top": 11,
+                  "width": 116,
+                  "height": 24,
+                  "leftUnit": "px",
+                  "topUnit": "px",
+                  "widthUnit": "px",
+                  "heightUnit": "px"
+                },
+                "absoluteRect": {
+                  "x": 404,
+                  "y": 87,
+                  "width": 116,
+                  "height": 24
+                },
+                "useStyle": null,
+                "hasLocalStyles": true,
+                "children": [],
+                "text": "화면"
+              }
+            ]
+          },
+          {
+            "objID": "715be6d9-a8ab-4f3f-975c-3d9301f8fb15",
+            "type": "LVGLButtonWidget",
+            "identifier": "settings_tab_4",
+            "rect": {
+              "left": 508,
+              "top": 10,
+              "width": 116,
+              "height": 44,
+              "leftUnit": "px",
+              "topUnit": "px",
+              "widthUnit": "px",
+              "heightUnit": "px"
+            },
+            "absoluteRect": {
+              "x": 528,
+              "y": 76,
+              "width": 116,
+              "height": 44
+            },
+            "useStyle": null,
+            "hasLocalStyles": true,
+            "children": [
+              {
+                "objID": "f1d05f13-2341-4b8e-cc1e-21be4a8a4e3b",
+                "type": "LVGLLabelWidget",
+                "identifier": null,
+                "rect": {
+                  "left": 0,
+                  "top": 11,
+                  "width": 116,
+                  "height": 24,
+                  "leftUnit": "px",
+                  "topUnit": "px",
+                  "widthUnit": "px",
+                  "heightUnit": "px"
+                },
+                "absoluteRect": {
+                  "x": 528,
+                  "y": 87,
+                  "width": 116,
+                  "height": 24
+                },
+                "useStyle": null,
+                "hasLocalStyles": true,
+                "children": [],
+                "text": "예약"
+              }
+            ]
+          },
+          {
+            "objID": "118f7adc-03c7-46d5-c62c-433520177a14",
+            "type": "LVGLButtonWidget",
+            "identifier": "settings_tab_5",
+            "rect": {
+              "left": 632,
+              "top": 10,
+              "width": 116,
+              "height": 44,
+              "leftUnit": "px",
+              "topUnit": "px",
+              "widthUnit": "px",
+              "heightUnit": "px"
+            },
+            "absoluteRect": {
+              "x": 652,
+              "y": 76,
+              "width": 116,
+              "height": 44
+            },
+            "useStyle": null,
+            "hasLocalStyles": true,
+            "children": [
+              {
+                "objID": "452ac721-620e-4d11-bd38-20ba5fbbf509",
+                "type": "LVGLLabelWidget",
+                "identifier": null,
+                "rect": {
+                  "left": 0,
+                  "top": 11,
+                  "width": 116,
+                  "height": 24,
+                  "leftUnit": "px",
+                  "topUnit": "px",
+                  "widthUnit": "px",
+                  "heightUnit": "px"
+                },
+                "absoluteRect": {
+                  "x": 652,
+                  "y": 87,
+                  "width": 116,
+                  "height": 24
+                },
+                "useStyle": null,
+                "hasLocalStyles": true,
+                "children": [],
+                "text": "시계"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

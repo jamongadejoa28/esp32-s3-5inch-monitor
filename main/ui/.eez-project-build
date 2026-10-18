@@ -1,0 +1,25 @@
+{
+  "files": [
+    "actions.h",
+    "fonts.h",
+    "images.c",
+    "images.h",
+    "screens.c",
+    "screens.h",
+    "structs.h",
+    "styles.c",
+    "styles.h",
+    "ui.c",
+    "ui.h",
+    "ui_font_body.c",
+    "ui_font_small.c",
+    "ui_font_title.c",
+    "ui_font_value.c",
+    "ui_image_cool.c",
+    "ui_image_dry.c",
+    "ui_image_fan.c",
+    "ui_image_heat.c",
+    "ui_image_humid.c",
+    "vars.h"
+  ]
+}

@@ -1,0 +1,61 @@
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/hajun/dev_ws/esp32-s3-monitor/build-host
+[0/2] Re-checking globbed directories...
+[1/38] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/styles.c.o
+[2/38] Building C object CMakeFiles/monitor_preview.dir/storage_fake.c.o
+[3/38] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/images.c.o
+[4/38] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/src/ui/widgets.c.o
+[5/38] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/src/ui/charts.c.o
+[6/38] Building C object CMakeFiles/monitor_preview.dir/preview.c.o
+[7/38] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui_font_body.c.o
+[8/38] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui.c.o
+[9/38] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui_font_small.c.o
+[10/38] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui_font_title.c.o
+[11/38] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui_font_value.c.o
+[12/38] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/src/ui/dashboard.c.o
+[13/38] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/screens.c.o
+[14/38] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui_image_cool.c.o
+[15/38] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/src/domain/clock.c.o
+[16/38] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/src/services/settings_sync.c.o
+[17/38] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui_image_dry.c.o
+[18/38] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui_image_heat.c.o
+[19/38] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui_image_fan.c.o
+[20/38] Building C object CMakeFiles/storage_check.dir/storage_check.c.o
+[21/38] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/src/services/storage.c.o
+[22/38] Building C object CMakeFiles/monitor_preview.dir/home/hajun/dev_ws/esp32-s3-monitor/main/ui/ui_image_humid.c.o
+[23/38] Building C object CMakeFiles/storage_check.dir/storage_fake.c.o
+[24/38] Building C object CMakeFiles/settings_sync_check.dir/home/hajun/dev_ws/esp32-s3-monitor/src/services/settings_sync.c.o
+[25/38] Building C object CMakeFiles/settings_sync_check.dir/storage_fake.c.o
+[26/38] Building C object CMakeFiles/settings_sync_check.dir/settings_sync_check.c.o
+[27/38] Building C object CMakeFiles/storage_check.dir/home/hajun/dev_ws/esp32-s3-monitor/src/services/storage.c.o
+[28/38] Building C object CMakeFiles/settings_sync_check.dir/home/hajun/dev_ws/esp32-s3-monitor/src/domain/model.c.o
+[29/38] Building C object CMakeFiles/clock_check.dir/clock_check.c.o
+[30/38] Building C object CMakeFiles/settings_sync_check.dir/home/hajun/dev_ws/esp32-s3-monitor/src/services/storage.c.o
+[31/38] Building C object CMakeFiles/clock_check.dir/storage_fake.c.o
+[32/38] Building C object CMakeFiles/clock_check.dir/home/hajun/dev_ws/esp32-s3-monitor/src/domain/clock.c.o
+[33/38] Building C object CMakeFiles/clock_check.dir/home/hajun/dev_ws/esp32-s3-monitor/src/board/clock.c.o
+[34/38] Linking C executable storage_check
+[35/38] Linking C executable settings_sync_check
+[36/38] Linking C executable clock_check
+[37/38] Linking C executable monitor_preview
+Offline settings: six values, NVS restart, coalescing, unit isolation, readback, stale link, retry and storage failure PASS
+W (clock) Time not synchronized. Use the PC time-sync task or Settings > Clock.
+
+MEX_TIME_READY 1000001
+
+MEX_TIME_ERROR invalid_or_expired_request
+I (clock) USB PC synchronized: 2026-10-18 23:59:58 KST (RTC written=1, commissioned=1)
+
+MEX_TIME_OK
+I (clock) Restored commissioned RTC time (KST, UTC+09:00).
+W (clock) Time not synchronized. Use the PC time-sync task or Settings > Clock.
+
+MEX_TIME_READY 1000001
+
+MEX_TIME_ERROR invalid_or_expired_request
+I (clock) manual synchronized: 2024-02-29 23:59:58 KST (RTC written=0, commissioned=1)
+W (clock) System time is valid for this session; RTC persistence could not be confirmed.
+
+MEX_TIME_READY 12000001
+KST clock: validation, OS flag, commissioning, USB handshake, expiry, overflow and RTC failure PASS

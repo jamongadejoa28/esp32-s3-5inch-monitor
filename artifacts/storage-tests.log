@@ -1,0 +1,1 @@
+storage_check: /home/hajun/dev_ws/esp32-s3-monitor/tests/host/storage_check.c:19: main: Assertion `storage_alarms(events,500)==500' failed.

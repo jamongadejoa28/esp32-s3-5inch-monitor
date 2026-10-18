@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-19T00:16:01.102242+09:00",
+  "idf": "v6.1",
+  "lvgl": "9.6.0",
+  "hardware_tested": false,
+  "pytest": 24,
+  "host_checks": [
+    "storage_check",
+    "alarm_check",
+    "settings_sync_check",
+    "clock_check",
+    "touch_check",
+    "touch_calibration_check",
+    "touch_fixed_check",
+    "monitor_preview"
+  ],
+  "eez_ui_files_unchanged_from_generator": 22,
+  "idf_build_passed": true,
+  "checks": [
+    "8 offline GUI settings including delay 1..180 seconds",
+    "legacy 6-value NVS migration",
+    "alarm notification returns on next real frame without duplicate incident",
+    "real controller clear updates same incident",
+    "disconnect/stale snapshots cannot clear alarms",
+    "500 incident journal wrap and legacy link-record filtering",
+    "per-unit persisted history deletion and cancel/failure",
+    "actual LVGL 50/51 incident page boundaries",
+    "15 tab labels center geometry and pointer hit testing",
+    "Korean glyph coverage"
+  ],
+  "firmware_sha256": "007f53df714d84c8c59a682be1530f88b366f965e3c13c7909905a5ddf507a11"
+}

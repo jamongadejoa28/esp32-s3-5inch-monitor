@@ -1,0 +1,6 @@
+{"version":"2.0.0","tasks":[
+  {"label":"Monitor: build (IDF 6.1)","type":"shell","command":"uv run --locked python tools/idf.py build","group":{"kind":"build","isDefault":true},"problemMatcher":["$gcc"]},
+  {"label":"Monitor: tests","type":"shell","command":"uv run --locked pytest -q","problemMatcher":[]},
+  {"label":"Monitor: sync PC time","type":"shell","command":"uv run --locked python tools/sync_time.py -p ${config:idf.port}","problemMatcher":[]},
+  {"label":"Monitor: flash + monitor","type":"shell","command":"uv run --locked python tools/run_device.py","problemMatcher":[]}
+]}

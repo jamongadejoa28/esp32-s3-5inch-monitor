@@ -1,0 +1,14 @@
+{
+  "idf": "v6.1",
+  "lvgl": "9.6.0",
+  "model_tests_passed": 19,
+  "eez_tabs_tested": 15,
+  "host_ui": [
+    "15 EEZ tabs: pointer hit testing, content, radio selection, history table, scrolling and re-entry passed",
+    "LVGL runtime navigation, input validation, animation, proportional and offline checks passed"
+  ],
+  "storage_test": "Journal wrap, bounded retention, CRC recovery, NVS restore and offline runtime checks passed",
+  "idf_build": "passed",
+  "eez_build": "passed (0 errors, 0 warnings)",
+  "hardware_tested": false
+}

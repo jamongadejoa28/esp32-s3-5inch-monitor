@@ -1,0 +1,26 @@
+[0/2] Re-checking globbed directories...
+[1/3] Building C object CMakeFiles/touch_calibration_check.dir/touch_preview.c.o
+[2/3] Linking C executable touch_calibration_check
+I (touch_cal) Calibration mode: four corners + independent center validation. Hold >=250 ms and release.
+W (touch_cal) GT911 read failed; check touch I2C connection. Sample discarded.
+I (touch_cal) Point 1: raw=(84.00, 936.00) screen=(64, 64)
+I (touch_cal) Point 2: raw=(84.00, 265.00) screen=(735, 64)
+I (touch_cal) Point 3: raw=(435.00, 265.00) screen=(735, 415)
+I (touch_cal) Point 4: raw=(435.00, 936.00) screen=(64, 415)
+I (touch_cal) Point 5: raw=(260.00, 500.00) screen=(400, 240)
+W (touch_cal) Calibration rejected (fit=1, corner=0.00 px, center=100.00 px). Retrying.
+I (touch_cal) Point 1: raw=(84.00, 936.00) screen=(64, 64)
+I (touch_cal) Point 2: raw=(84.00, 265.00) screen=(735, 64)
+I (touch_cal) Point 3: raw=(435.00, 265.00) screen=(735, 415)
+I (touch_cal) Point 4: raw=(435.00, 936.00) screen=(64, 415)
+I (touch_cal) Point 5: raw=(260.00, 600.00) screen=(400, 240)
+I (touch_cal) PASS: corner max error 0.00 px; center error 0.00 px
+I (touch_cal) Applied for this session. Replace the mode/coefficients in include/board/touch_settings.h:
+
+// #define BOARD_TOUCH_CALIBRATE_ON_BOOT
+#define BOARD_TOUCH_USE_FIXED_CALIBRATION
+#define BOARD_TOUCH_CALIBRATION_COEFFICIENTS \
+    { .a = 0.000000000f, .b = -1.000000000f, .c = 1000.000000000f, \
+      .d = 1.000000000f, .e = 0.000000000f, .f = -20.000000000f }
+
+Calibration LVGL screen, rejected center/retry, apply, cleanup, input handoff PASS

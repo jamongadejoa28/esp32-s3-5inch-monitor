@@ -1,0 +1,41 @@
+{
+  "chip": "esp32s3",
+  "idf": "v6.1",
+  "lvgl": "9.6.0",
+  "flash_mode": "dio",
+  "flash_size": "16MB",
+  "flash_freq": "80m",
+  "touch_mode": "fixed",
+  "hardware_tested": false,
+  "features": [
+    "KST_year_clock_USB_PC_sync",
+    "instant_screen_navigation",
+    "persistent_offline_setpoints_and_deviations",
+    "persistent_offline_start_stop_delays",
+    "live_alarm_incidents_auto_clear",
+    "local_acknowledgment_reappears_next_controller_frame",
+    "persistent_per_unit_history_deletion",
+    "data_bounded_alarm_pagination",
+    "centered_panel_tab_labels"
+  ],
+  "images": [
+    {
+      "file": "bootloader.bin",
+      "offset": "0x0",
+      "size": 21168,
+      "sha256": "aca803da93aff75e9a0423171b1d64d6158fef3fe5b7d2bdc22ebc5d5f0673f0"
+    },
+    {
+      "file": "partition-table.bin",
+      "offset": "0x8000",
+      "size": 3072,
+      "sha256": "7d0c49d6b4a31a08448adb6a8938a469321f970bae3d8f3bd527ba8a9760a91d"
+    },
+    {
+      "file": "mex_touch_monitor.bin",
+      "offset": "0x10000",
+      "size": 1807696,
+      "sha256": "007f53df714d84c8c59a682be1530f88b366f965e3c13c7909905a5ddf507a11"
+    }
+  ]
+}

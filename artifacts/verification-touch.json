@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-18",
+  "idf": "6.1",
+  "lvgl": "9.6.0",
+  "hardware_tested": false,
+  "pytest_passed": 22,
+  "host_checks": [
+    "touch_math_capture",
+    "touch_lvgl_retry_cleanup",
+    "touch_fixed_mode",
+    "15_eez_tabs",
+    "storage_journal",
+    "animation_proportional_offline"
+  ],
+  "idf_builds_passed": [
+    "calibration",
+    "fixed_from_simulated_serial_output"
+  ],
+  "final_firmware_touch_mode": "calibration",
+  "calibration_address_sanitizer": "passed",
+  "stack_bytes": {
+    "refresh_equipment": {
+      "before": 8432,
+      "after": 448
+    },
+    "refresh_history": {
+      "before": 4656,
+      "after": 352
+    },
+    "dashboard_tick": {
+      "before": 4704,
+      "after": 384
+    }
+  },
+  "stack_measurement_scope": "GCC static frame per function, excludes callees; not runtime high-water mark",
+  "main_task_stack_bytes": 24576,
+  "stack_checks": [
+    "canary",
+    "watchpoint_end_of_stack",
+    "compiler_strong"
+  ],
+  "firmware_sha256": "e417c2eeed70b67d048a8b8beec64754b7ee62fdbce4bfa07a91e623f881063c"
+}

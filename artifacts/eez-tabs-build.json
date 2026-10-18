@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "generatedFiles": [
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\actions.h",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\fonts.h",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\images.c",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\images.h",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\screens.c",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\screens.h",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\structs.h",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\styles.c",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\styles.h",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\ui.c",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\ui.h",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\ui_font_body.c",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\ui_font_small.c",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\ui_font_title.c",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\ui_font_value.c",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\ui_image_cool.c",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\ui_image_dry.c",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\ui_image_fan.c",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\ui_image_heat.c",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\ui_image_humid.c",
+    "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui\\vars.h"
+  ],
+  "destination": "C:\\Users\\hajun\\eez-projects\\esp32-s3-5inch-monitor\\src\\ui"
+}
